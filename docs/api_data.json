@@ -78,39 +78,6 @@
   },
   {
     "type": "delete",
-    "url": "/comments/:id",
-    "title": "O- Ad Comments Delete Comment",
-    "description": "<p>Delete Comment</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "DeleteCommentsId"
-  },
-  {
-    "type": "delete",
-    "url": "/delete-token/:token",
-    "title": "S- Delete Token",
-    "description": "<p>Delete Token</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "DeleteDeleteTokenToken"
-  },
-  {
-    "type": "delete",
-    "url": "/my-ads/:id",
-    "title": "N- My Ads Delete Ad",
-    "description": "<p>Delete Ad</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "DeleteMyAdsId"
-  },
-  {
-    "type": "delete",
     "url": "/regions/:id",
     "title": "E- Regions Delete",
     "description": "<p>Delete Regions</p>",
@@ -315,58 +282,12 @@
   },
   {
     "type": "get",
-    "url": "/ads/:id/recent-comments",
-    "title": "O- Ad Comments Get Ad Recent comments",
-    "description": "<p>Get Ad Recent comments</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "GetAdsIdRecentComments"
-  },
-  {
-    "type": "get",
     "url": "/ads/:id/related",
     "title": "H- Ad Get Related By Id",
     "description": "<p>Get Related Ads By Ad Id</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
-    "groupTitle": "Admin",
-    "name": "GetAdsIdRelated"
-  },
-  {
-    "type": "get",
-    "url": "/ads/:id/related",
-    "title": "F- Ad Get Related By Id",
-    "description": "<p>Get Related Ads By Ad Id</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "GetAdsIdRelated"
-  },
-  {
-    "type": "get",
-    "url": "/ads/:id/related",
-    "title": "O- Ad Comments Get Ad comments",
-    "description": "<p>Get Ad comments</p>",
-    "group": "Admin",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "Number",
-            "optional": false,
-            "field": "page",
-            "description": "<p>Page Number.</p>"
-          }
-        ]
-      }
-    },
-    "version": "0.0.0",
-    "filename": "routes/api.js",
     "groupTitle": "Admin",
     "name": "GetAdsIdRelated"
   },
@@ -383,58 +304,12 @@
   },
   {
     "type": "get",
-    "url": "/banners",
-    "title": "P- Banners Get Banners",
-    "description": "<p>Get Banners</p>",
-    "group": "Admin",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "Number",
-            "optional": false,
-            "field": "page",
-            "description": "<p>Page Number.</p>"
-          }
-        ]
-      }
-    },
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "GetBanners"
-  },
-  {
-    "type": "get",
-    "url": "/block-list",
-    "title": "I- Block Lis Get",
-    "description": "<p>Get Current User Block List</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "GetBlockList"
-  },
-  {
-    "type": "get",
     "url": "/car-makes/",
     "title": "D- Car Makes Get",
     "description": "<p>Get Car Makes</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
-    "groupTitle": "Admin",
-    "name": "GetCarMakes"
-  },
-  {
-    "type": "get",
-    "url": "/car-makes/",
-    "title": "B- Car Makes Get",
-    "description": "<p>Get Car Makes</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
     "groupTitle": "Admin",
     "name": "GetCarMakes"
   },
@@ -451,34 +326,12 @@
   },
   {
     "type": "get",
-    "url": "/car-makes/:carMakeId/car-models/",
-    "title": "B- Car Models Get",
-    "description": "<p>Get Car Models By carMakeId</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "GetCarMakesCarmakeidCarModels"
-  },
-  {
-    "type": "get",
     "url": "/categories/",
     "title": "A- Categories Get",
     "description": "<p>Get Categories</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
-    "groupTitle": "Admin",
-    "name": "GetCategories"
-  },
-  {
-    "type": "get",
-    "url": "/categories/",
-    "title": "A- Categories Get By Id",
-    "description": "<p>Get Category By Id</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
     "groupTitle": "Admin",
     "name": "GetCategories"
   },
@@ -506,170 +359,12 @@
   },
   {
     "type": "get",
-    "url": "/channels",
-    "title": "M- Chat Get Channels",
-    "description": "<p>Get Chat Channels</p>",
-    "group": "Admin",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "Number",
-            "optional": false,
-            "field": "page",
-            "description": "<p>Page Number.</p>"
-          }
-        ]
-      }
-    },
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "GetChannels"
-  },
-  {
-    "type": "get",
-    "url": "/channels/:id",
-    "title": "M- Chat Get Channel By Id",
-    "description": "<p>Get Channel By Id</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "GetChannelsId"
-  },
-  {
-    "type": "get",
-    "url": "/channels/:id/messages",
-    "title": "M- Chat Get Channel Messages",
-    "description": "<p>Get Channel Messages By Channel Id</p>",
-    "group": "Admin",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "Number",
-            "optional": false,
-            "field": "page",
-            "description": "<p>Page Number.</p>"
-          }
-        ]
-      }
-    },
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "GetChannelsIdMessages"
-  },
-  {
-    "type": "get",
-    "url": "/followers-list",
-    "title": "J- Followers Get Current User Followers",
-    "description": "<p>Get Current User Followers</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "GetFollowersList"
-  },
-  {
-    "type": "get",
-    "url": "/followings-list",
-    "title": "J- Follwings Get Current User Follwings",
-    "description": "<p>Get Current User Follwings</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "GetFollowingsList"
-  },
-  {
-    "type": "get",
-    "url": "/home",
-    "title": "Q- Home Get Data",
-    "description": "<p>Get Home Page Data</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "GetHome"
-  },
-  {
-    "type": "get",
-    "url": "/my-ads",
-    "title": "N- My Ads Get Ads",
-    "description": "<p>Get Ads For Logged User</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "GetMyAds"
-  },
-  {
-    "type": "get",
-    "url": "/my-ads/:id",
-    "title": "N- My Ads Get Ad By Id",
-    "description": "<p>Get Ads For Logged User By Ad Id</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "GetMyAdsId"
-  },
-  {
-    "type": "get",
-    "url": "/my-favourite",
-    "title": "K- Favourites Get Current User Ads Favourite",
-    "description": "<p>Get Current User Ads Favourite</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "GetMyFavourite"
-  },
-  {
-    "type": "get",
-    "url": "/notifications",
-    "title": "L- Notifications Get Current User Notifications",
-    "description": "<p>Get Current User Notifications</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "GetNotifications"
-  },
-  {
-    "type": "get",
-    "url": "/profile",
-    "title": "R- Profile Get Information",
-    "description": "<p>Get Profile Information</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "GetProfile"
-  },
-  {
-    "type": "get",
     "url": "/regions/",
     "title": "E- Regions Get",
     "description": "<p>Get Regions</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
-    "groupTitle": "Admin",
-    "name": "GetRegions"
-  },
-  {
-    "type": "get",
-    "url": "/regions/",
-    "title": "C- Regions Get",
-    "description": "<p>Get Regions</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
     "groupTitle": "Admin",
     "name": "GetRegions"
   },
@@ -732,30 +427,6 @@
   },
   {
     "type": "get",
-    "url": "/top-banners",
-    "title": "P- Banners Get Top Banners",
-    "description": "<p>Get Top Banners</p>",
-    "group": "Admin",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "Number",
-            "optional": false,
-            "field": "page",
-            "description": "<p>Page Number.</p>"
-          }
-        ]
-      }
-    },
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "GetTopBanners"
-  },
-  {
-    "type": "get",
     "url": "/user-logs/:id",
     "title": "K- Users Logs Get",
     "description": "<p>Get Users Logs By User Id</p>",
@@ -775,50 +446,6 @@
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
     "name": "GetUserManagedCategoriesId"
-  },
-  {
-    "type": "get",
-    "url": "/users/:id/",
-    "title": "E- Users Get",
-    "description": "<p>Get User By Id</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "GetUsersId"
-  },
-  {
-    "type": "get",
-    "url": "/users/:id/",
-    "title": "F- Ads Recent Get",
-    "description": "<p>Get Ads Recent</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "GetUsersId"
-  },
-  {
-    "type": "get",
-    "url": "/users/:id/",
-    "title": "F- Ads Get",
-    "description": "<p>Get Ads</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "GetUsersId"
-  },
-  {
-    "type": "get",
-    "url": "/users/:id/",
-    "title": "F- Ads Get  By Id",
-    "description": "<p>Get Ad By Id</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "GetUsersId"
   },
   {
     "type": "get",
@@ -894,60 +521,6 @@
   },
   {
     "type": "post",
-    "url": "/ads/:id/new-view",
-    "title": "F- Ad Add View By Ad Id",
-    "description": "<p>Add New View On Ad By Ad Id</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PostAdsIdNewView"
-  },
-  {
-    "type": "post",
-    "url": "/ads/:id/report",
-    "title": "F- Ad Add Report By Ad Id",
-    "description": "<p>Add New Report On Ad By Ad Id</p>",
-    "group": "Admin",
-    "body": [
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "text",
-        "defaultValue": "details text",
-        "description": ""
-      }
-    ],
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PostAdsIdReport"
-  },
-  {
-    "type": "post",
-    "url": "/ads/:id/toggle-favourite",
-    "title": "F- Ad Toggle Favourite",
-    "description": "<p>Make Or Remove Favourite From Ad For Current User</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PostAdsIdToggleFavourite"
-  },
-  {
-    "type": "post",
-    "url": "/ads/:id/toggle-like",
-    "title": "F- Ad Toggle Like",
-    "description": "<p>Make Or Remove Like From Ad For Current User</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PostAdsIdToggleLike"
-  },
-  {
-    "type": "post",
     "url": "/Banners",
     "title": "F- Banner Create",
     "description": "<p>Create Banner</p>",
@@ -1002,17 +575,6 @@
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
     "name": "PostBanners"
-  },
-  {
-    "type": "post",
-    "url": "/block-user/:id",
-    "title": "I- Block Lis Create Block For User",
-    "description": "<p>Create Block For User By User Id</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PostBlockUserId"
   },
   {
     "type": "post",
@@ -1112,346 +674,6 @@
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
     "name": "PostCategories"
-  },
-  {
-    "type": "post",
-    "url": "/channels",
-    "title": "M- Chat Create Channel",
-    "description": "<p>Create Channel</p>",
-    "group": "Admin",
-    "body": [
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "ad",
-        "defaultValue": "ad target id",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "user",
-        "defaultValue": "user owner ad id",
-        "description": ""
-      }
-    ],
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PostChannels"
-  },
-  {
-    "type": "post",
-    "url": "/channels/:id/new-message-audio",
-    "title": "M- Chat Add New Audio",
-    "description": "<p>Chat Add New Attachment Audio</p>",
-    "group": "Admin",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "File",
-            "optional": false,
-            "field": "attachment",
-            "description": "<p>Audio Attachment.</p>"
-          }
-        ]
-      }
-    },
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PostChannelsIdNewMessageAudio"
-  },
-  {
-    "type": "post",
-    "url": "/channels/:id/new-message-photo",
-    "title": "M- Chat Add New Image",
-    "description": "<p>Chat Add New Attachment Image</p>",
-    "group": "Admin",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "File",
-            "optional": false,
-            "field": "attachment",
-            "description": "<p>Image Attachment.</p>"
-          }
-        ]
-      }
-    },
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PostChannelsIdNewMessagePhoto"
-  },
-  {
-    "type": "post",
-    "url": "/channels/:id/new-message-text",
-    "title": "M- Chat Add New Message",
-    "description": "<p>Chat Add New Message</p>",
-    "group": "Admin",
-    "body": [
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "body",
-        "defaultValue": "message ",
-        "description": ""
-      }
-    ],
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PostChannelsIdNewMessageText"
-  },
-  {
-    "type": "post",
-    "url": "/channels/:id/new-message-video",
-    "title": "M- Chat Add New Video",
-    "description": "<p>Chat Add New Attachment Video</p>",
-    "group": "Admin",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "File",
-            "optional": false,
-            "field": "attachment",
-            "description": "<p>Video Attachment.</p>"
-          }
-        ]
-      }
-    },
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PostChannelsIdNewMessageVideo"
-  },
-  {
-    "type": "post",
-    "url": "/comments",
-    "title": "O- Ad Comments Create Comment",
-    "description": "<p>Create Comment On Ad</p>",
-    "group": "Admin",
-    "body": [
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "ad",
-        "defaultValue": "ad target id",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "text",
-        "defaultValue": "comment text",
-        "description": ""
-      }
-    ],
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PostComments"
-  },
-  {
-    "type": "post",
-    "url": "/follow-user/:id",
-    "title": "J- Follwings Create Follow",
-    "description": "<p>Create Follow By User Target Id</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PostFollowUserId"
-  },
-  {
-    "type": "post",
-    "url": "/last-active",
-    "title": "R- Profile Add Last Active",
-    "description": "<p>Add Last Active</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PostLastActive"
-  },
-  {
-    "type": "post",
-    "url": "/login",
-    "title": "R- Profile Login",
-    "description": "<p>Login To App</p>",
-    "group": "Admin",
-    "body": [
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "name",
-        "defaultValue": "user name",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "mobile",
-        "defaultValue": "mobile",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "code",
-        "defaultValue": "login code",
-        "description": ""
-      }
-    ],
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PostLogin"
-  },
-  {
-    "type": "post",
-    "url": "/my-ads",
-    "title": "N- My Ads Create Ad",
-    "description": "<p>Create New Ad</p>",
-    "group": "Admin",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "File[]",
-            "optional": false,
-            "field": "photos",
-            "description": "<p>array of photos.</p>"
-          }
-        ]
-      }
-    },
-    "body": [
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "title",
-        "defaultValue": "ad title (required)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "price",
-        "defaultValue": "ad price (required)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "category",
-        "defaultValue": "categoryId (required)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "subcategory",
-        "defaultValue": "subcategoryId (required)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "type",
-        "defaultValue": "typeId (required)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "region",
-        "defaultValue": "region id (required if properties)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "carMake",
-        "defaultValue": "ad car make id (required if cars)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "carModel",
-        "defaultValue": "ad car model id (required if cars)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "carYear",
-        "defaultValue": "ad car year (required if cars)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "km",
-        "defaultValue": "ad car km (required if cars)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "details",
-        "defaultValue": "ad details (required)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "longitude",
-        "defaultValue": "ad longitude ",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "latitude",
-        "defaultValue": "ad latitude ",
-        "description": ""
-      }
-    ],
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PostMyAds"
   },
   {
     "type": "post",
@@ -1561,80 +783,6 @@
   },
   {
     "type": "post",
-    "url": "/push-demo/id/:id",
-    "title": "S- Demo Send Notification To Player Ids",
-    "description": "<p>Send Notification To Player Id  By Plyer Id</p>",
-    "group": "Admin",
-    "body": [
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "ar_message",
-        "defaultValue": "Arabic Message",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "en_message",
-        "defaultValue": "English Message",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "data",
-        "defaultValue": "any data",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "group_id",
-        "defaultValue": "group id",
-        "description": ""
-      }
-    ],
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PostPushDemoIdId"
-  },
-  {
-    "type": "post",
-    "url": "/push-demo/user/:user",
-    "title": "S- Demo Send Demo Notification To User",
-    "description": "<p>Send Demo Notification To User</p>",
-    "group": "Admin",
-    "body": [
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "ar_message",
-        "defaultValue": "Arabic Message",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "en_message",
-        "defaultValue": "English Message",
-        "description": ""
-      }
-    ],
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PostPushDemoUserUser"
-  },
-  {
-    "type": "post",
     "url": "/regions/",
     "title": "E- Regions Create",
     "description": "<p>Create Regions</p>",
@@ -1661,17 +809,6 @@
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
     "name": "PostRegions"
-  },
-  {
-    "type": "post",
-    "url": "/register-token/:token",
-    "title": "S- Push Tokens Register Token",
-    "description": "<p>Register Token For Current User</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PostRegisterTokenToken"
   },
   {
     "type": "post",
@@ -1932,28 +1069,6 @@
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
     "name": "PostTypes"
-  },
-  {
-    "type": "post",
-    "url": "/unblock-user/:id",
-    "title": "I- Block Lis Remove Block From User",
-    "description": "<p>Remove Block From User By User Id</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PostUnblockUserId"
-  },
-  {
-    "type": "post",
-    "url": "/unfollow-user/:id",
-    "title": "J- Follwings Remove Follow",
-    "description": "<p>Remove Follow By User Target Id</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PostUnfollowUserId"
   },
   {
     "type": "post",
@@ -2520,214 +1635,6 @@
   },
   {
     "type": "put",
-    "url": "/comments/:id",
-    "title": "O- Ad Comments Update Comment",
-    "description": "<p>Update Comment</p>",
-    "group": "Admin",
-    "body": [
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "text",
-        "defaultValue": "comment text",
-        "description": ""
-      }
-    ],
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PutCommentsId"
-  },
-  {
-    "type": "put",
-    "url": "/my-ads/:id",
-    "title": "N- My Ads Update Ad",
-    "description": "<p>Update Ad</p>",
-    "group": "Admin",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "File[]",
-            "optional": false,
-            "field": "photos",
-            "description": "<p>array of photos.</p>"
-          }
-        ]
-      }
-    },
-    "body": [
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "title",
-        "defaultValue": "ad title (required)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "price",
-        "defaultValue": "ad price (required)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "category",
-        "defaultValue": "categoryId (required)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "subcategory",
-        "defaultValue": "subcategoryId (required)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "type",
-        "defaultValue": "typeId (required)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "region",
-        "defaultValue": "region id (required if properties)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "carMake",
-        "defaultValue": "ad car make id (required if cars)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "carModel",
-        "defaultValue": "ad car model id (required if cars)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "carYear",
-        "defaultValue": "ad car year (required if cars)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "km",
-        "defaultValue": "ad car km (required if cars)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "details",
-        "defaultValue": "ad details (required)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "longitude",
-        "defaultValue": "ad longitude ",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "latitude",
-        "defaultValue": "ad latitude ",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "thumbnailId",
-        "defaultValue": "ad thumbnail id (required if old)",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "thumbnailType",
-        "defaultValue": "ad thumbnail type (old(from ad photos), new(from new uploaded images))",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "Number[]",
-        "optional": false,
-        "field": "deletePhotos",
-        "defaultValue": "array of photes indexes need to delete",
-        "description": ""
-      }
-    ],
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PutMyAdsId"
-  },
-  {
-    "type": "put",
-    "url": "/my-ads/:id/activate",
-    "title": "N- My Ads Activate Ad",
-    "description": "<p>Activate Ad</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PutMyAdsIdActivate"
-  },
-  {
-    "type": "put",
-    "url": "/my-ads/:id/deactivate",
-    "title": "N- My Ads Deactivate Ad",
-    "description": "<p>Deactivate Ad</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PutMyAdsIdDeactivate"
-  },
-  {
-    "type": "put",
-    "url": "/my-ads/:id/republish",
-    "title": "N- My Ads Republish Ad",
-    "description": "<p>Republish Ad</p>",
-    "group": "Admin",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Admin",
-    "name": "PutMyAdsIdRepublish"
-  },
-  {
-    "type": "put",
     "url": "/regions/:id",
     "title": "E- Regions Update",
     "description": "<p>Update Regions</p>",
@@ -2973,6 +1880,1632 @@
     "name": "PutTypesSort"
   },
   {
+    "type": "delete",
+    "url": "/comments/:id",
+    "title": "O- Ad Comments Delete Comment",
+    "description": "<p>Delete Comment</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "DeleteCommentsId"
+  },
+  {
+    "type": "delete",
+    "url": "/delete-token/:token",
+    "title": "S- Delete Token",
+    "description": "<p>Delete Token</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "DeleteDeleteTokenToken"
+  },
+  {
+    "type": "delete",
+    "url": "/my-ads/:id",
+    "title": "N- My Ads Delete Ad",
+    "description": "<p>Delete Ad</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "DeleteMyAdsId"
+  },
+  {
+    "type": "get",
+    "url": "/ads/:id/recent-comments",
+    "title": "O- Ad Comments Get Ad Recent comments",
+    "description": "<p>Get Ad Recent comments</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetAdsIdRecentComments"
+  },
+  {
+    "type": "get",
+    "url": "/ads/:id/related",
+    "title": "F- Ad Get Related By Id",
+    "description": "<p>Get Related Ads By Ad Id</p>",
+    "group": "Api",
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetAdsIdRelated"
+  },
+  {
+    "type": "get",
+    "url": "/ads/:id/related",
+    "title": "O- Ad Comments Get Ad comments",
+    "description": "<p>Get Ad comments</p>",
+    "group": "Api",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "page",
+            "description": "<p>Page Number.</p>"
+          }
+        ]
+      }
+    },
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetAdsIdRelated"
+  },
+  {
+    "type": "get",
+    "url": "/banners",
+    "title": "P- Banners Get Banners",
+    "description": "<p>Get Banners</p>",
+    "group": "Api",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "page",
+            "description": "<p>Page Number.</p>"
+          }
+        ]
+      }
+    },
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetBanners"
+  },
+  {
+    "type": "get",
+    "url": "/block-list",
+    "title": "I- Block Lis Get",
+    "description": "<p>Get Current User Block List</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetBlockList"
+  },
+  {
+    "type": "get",
+    "url": "/car-makes/",
+    "title": "B- Car Makes Get",
+    "description": "<p>Get Car Makes</p>",
+    "group": "Api",
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetCarMakes"
+  },
+  {
+    "type": "get",
+    "url": "/car-makes/:carMakeId/car-models/",
+    "title": "B- Car Models Get",
+    "description": "<p>Get Car Models By carMakeId</p>",
+    "group": "Api",
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetCarMakesCarmakeidCarModels"
+  },
+  {
+    "type": "get",
+    "url": "/categories/",
+    "title": "A- Categories Get By Id",
+    "description": "<p>Get Category By Id</p>",
+    "group": "Api",
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetCategories"
+  },
+  {
+    "type": "get",
+    "url": "/channels",
+    "title": "M- Chat Get Channels",
+    "description": "<p>Get Chat Channels</p>",
+    "group": "Api",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "page",
+            "description": "<p>Page Number.</p>"
+          }
+        ]
+      }
+    },
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetChannels"
+  },
+  {
+    "type": "get",
+    "url": "/channels/:id",
+    "title": "M- Chat Get Channel By Id",
+    "description": "<p>Get Channel By Id</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetChannelsId"
+  },
+  {
+    "type": "get",
+    "url": "/channels/:id/messages",
+    "title": "M- Chat Get Channel Messages",
+    "description": "<p>Get Channel Messages By Channel Id</p>",
+    "group": "Api",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "page",
+            "description": "<p>Page Number.</p>"
+          }
+        ]
+      }
+    },
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetChannelsIdMessages"
+  },
+  {
+    "type": "get",
+    "url": "/followers-list",
+    "title": "J- Followers Get Current User Followers",
+    "description": "<p>Get Current User Followers</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetFollowersList"
+  },
+  {
+    "type": "get",
+    "url": "/followings-list",
+    "title": "J- Follwings Get Current User Follwings",
+    "description": "<p>Get Current User Follwings</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetFollowingsList"
+  },
+  {
+    "type": "get",
+    "url": "/home",
+    "title": "Q- Home Get Data",
+    "description": "<p>Get Home Page Data</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetHome"
+  },
+  {
+    "type": "get",
+    "url": "/my-ads",
+    "title": "N- My Ads Get Ads",
+    "description": "<p>Get Ads For Logged User</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetMyAds"
+  },
+  {
+    "type": "get",
+    "url": "/my-ads/:id",
+    "title": "N- My Ads Get Ad By Id",
+    "description": "<p>Get Ads For Logged User By Ad Id</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetMyAdsId"
+  },
+  {
+    "type": "get",
+    "url": "/my-favourite",
+    "title": "K- Favourites Get Current User Ads Favourite",
+    "description": "<p>Get Current User Ads Favourite</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetMyFavourite"
+  },
+  {
+    "type": "get",
+    "url": "/notifications",
+    "title": "L- Notifications Get Current User Notifications",
+    "description": "<p>Get Current User Notifications</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetNotifications"
+  },
+  {
+    "type": "get",
+    "url": "/profile",
+    "title": "R- Profile Get Information",
+    "description": "<p>Get Profile Information</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetProfile"
+  },
+  {
+    "type": "get",
+    "url": "/regions/",
+    "title": "C- Regions Get",
+    "description": "<p>Get Regions</p>",
+    "group": "Api",
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetRegions"
+  },
+  {
+    "type": "get",
+    "url": "/top-banners",
+    "title": "P- Banners Get Top Banners",
+    "description": "<p>Get Top Banners</p>",
+    "group": "Api",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "page",
+            "description": "<p>Page Number.</p>"
+          }
+        ]
+      }
+    },
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetTopBanners"
+  },
+  {
+    "type": "get",
+    "url": "/users/:id/",
+    "title": "E- Users Get",
+    "description": "<p>Get User By Id</p>",
+    "group": "Api",
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetUsersId"
+  },
+  {
+    "type": "get",
+    "url": "/users/:id/",
+    "title": "F- Ads Recent Get",
+    "description": "<p>Get Ads Recent</p>",
+    "group": "Api",
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetUsersId"
+  },
+  {
+    "type": "get",
+    "url": "/users/:id/",
+    "title": "F- Ads Get",
+    "description": "<p>Get Ads</p>",
+    "group": "Api",
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetUsersId"
+  },
+  {
+    "type": "get",
+    "url": "/users/:id/",
+    "title": "F- Ads Get  By Id",
+    "description": "<p>Get Ad By Id</p>",
+    "group": "Api",
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "GetUsersId"
+  },
+  {
+    "type": "post",
+    "url": "/ads/:id/new-view",
+    "title": "F- Ad Add View By Ad Id",
+    "description": "<p>Add New View On Ad By Ad Id</p>",
+    "group": "Api",
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PostAdsIdNewView"
+  },
+  {
+    "type": "post",
+    "url": "/ads/:id/report",
+    "title": "F- Ad Add Report By Ad Id",
+    "description": "<p>Add New Report On Ad By Ad Id</p>",
+    "group": "Api",
+    "body": [
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "text",
+        "defaultValue": "details text",
+        "description": ""
+      }
+    ],
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PostAdsIdReport"
+  },
+  {
+    "type": "post",
+    "url": "/ads/:id/toggle-favourite",
+    "title": "F- Ad Toggle Favourite",
+    "description": "<p>Make Or Remove Favourite From Ad For Current User</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PostAdsIdToggleFavourite"
+  },
+  {
+    "type": "post",
+    "url": "/ads/:id/toggle-like",
+    "title": "F- Ad Toggle Like",
+    "description": "<p>Make Or Remove Like From Ad For Current User</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PostAdsIdToggleLike"
+  },
+  {
+    "type": "post",
+    "url": "/block-user/:id",
+    "title": "I- Block Lis Create Block For User",
+    "description": "<p>Create Block For User By User Id</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PostBlockUserId"
+  },
+  {
+    "type": "post",
+    "url": "/channels",
+    "title": "M- Chat Create Channel",
+    "description": "<p>Create Channel</p>",
+    "group": "Api",
+    "body": [
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "ad",
+        "defaultValue": "ad target id",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "user",
+        "defaultValue": "user owner ad id",
+        "description": ""
+      }
+    ],
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PostChannels"
+  },
+  {
+    "type": "post",
+    "url": "/channels/:id/new-message-audio",
+    "title": "M- Chat Add New Audio",
+    "description": "<p>Chat Add New Attachment Audio</p>",
+    "group": "Api",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "File",
+            "optional": false,
+            "field": "attachment",
+            "description": "<p>Audio Attachment.</p>"
+          }
+        ]
+      }
+    },
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PostChannelsIdNewMessageAudio"
+  },
+  {
+    "type": "post",
+    "url": "/channels/:id/new-message-photo",
+    "title": "M- Chat Add New Image",
+    "description": "<p>Chat Add New Attachment Image</p>",
+    "group": "Api",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "File",
+            "optional": false,
+            "field": "attachment",
+            "description": "<p>Image Attachment.</p>"
+          }
+        ]
+      }
+    },
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PostChannelsIdNewMessagePhoto"
+  },
+  {
+    "type": "post",
+    "url": "/channels/:id/new-message-text",
+    "title": "M- Chat Add New Message",
+    "description": "<p>Chat Add New Message</p>",
+    "group": "Api",
+    "body": [
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "body",
+        "defaultValue": "message ",
+        "description": ""
+      }
+    ],
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PostChannelsIdNewMessageText"
+  },
+  {
+    "type": "post",
+    "url": "/channels/:id/new-message-video",
+    "title": "M- Chat Add New Video",
+    "description": "<p>Chat Add New Attachment Video</p>",
+    "group": "Api",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "File",
+            "optional": false,
+            "field": "attachment",
+            "description": "<p>Video Attachment.</p>"
+          }
+        ]
+      }
+    },
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PostChannelsIdNewMessageVideo"
+  },
+  {
+    "type": "post",
+    "url": "/comments",
+    "title": "O- Ad Comments Create Comment",
+    "description": "<p>Create Comment On Ad</p>",
+    "group": "Api",
+    "body": [
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "ad",
+        "defaultValue": "ad target id",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "text",
+        "defaultValue": "comment text",
+        "description": ""
+      }
+    ],
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PostComments"
+  },
+  {
+    "type": "post",
+    "url": "/follow-user/:id",
+    "title": "J- Follwings Create Follow",
+    "description": "<p>Create Follow By User Target Id</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PostFollowUserId"
+  },
+  {
+    "type": "post",
+    "url": "/last-active",
+    "title": "R- Profile Add Last Active",
+    "description": "<p>Add Last Active</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PostLastActive"
+  },
+  {
+    "type": "post",
+    "url": "/login",
+    "title": "R- Profile Login",
+    "description": "<p>Login To App</p>",
+    "group": "Api",
+    "body": [
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "name",
+        "defaultValue": "user name",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "mobile",
+        "defaultValue": "mobile",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "code",
+        "defaultValue": "login code",
+        "description": ""
+      }
+    ],
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PostLogin"
+  },
+  {
+    "type": "post",
+    "url": "/my-ads",
+    "title": "N- My Ads Create Ad",
+    "description": "<p>Create New Ad</p>",
+    "group": "Api",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "File[]",
+            "optional": false,
+            "field": "photos",
+            "description": "<p>array of photos.</p>"
+          }
+        ]
+      }
+    },
+    "body": [
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "title",
+        "defaultValue": "ad title (required)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "price",
+        "defaultValue": "ad price (required)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "category",
+        "defaultValue": "categoryId (required)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "subcategory",
+        "defaultValue": "subcategoryId (required)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "type",
+        "defaultValue": "typeId (required)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "region",
+        "defaultValue": "region id (required if properties)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "carMake",
+        "defaultValue": "ad car make id (required if cars)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "carModel",
+        "defaultValue": "ad car model id (required if cars)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "carYear",
+        "defaultValue": "ad car year (required if cars)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "km",
+        "defaultValue": "ad car km (required if cars)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "details",
+        "defaultValue": "ad details (required)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "longitude",
+        "defaultValue": "ad longitude ",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "latitude",
+        "defaultValue": "ad latitude ",
+        "description": ""
+      }
+    ],
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PostMyAds"
+  },
+  {
+    "type": "post",
+    "url": "/push-demo/id/:id",
+    "title": "S- Demo Send Notification To Player Ids",
+    "description": "<p>Send Notification To Player Id  By Plyer Id</p>",
+    "group": "Api",
+    "body": [
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "ar_message",
+        "defaultValue": "Arabic Message",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "en_message",
+        "defaultValue": "English Message",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "data",
+        "defaultValue": "any data",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "group_id",
+        "defaultValue": "group id",
+        "description": ""
+      }
+    ],
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PostPushDemoIdId"
+  },
+  {
+    "type": "post",
+    "url": "/push-demo/user/:user",
+    "title": "S- Demo Send Demo Notification To User",
+    "description": "<p>Send Demo Notification To User</p>",
+    "group": "Api",
+    "body": [
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "ar_message",
+        "defaultValue": "Arabic Message",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "en_message",
+        "defaultValue": "English Message",
+        "description": ""
+      }
+    ],
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PostPushDemoUserUser"
+  },
+  {
+    "type": "post",
+    "url": "/register-token/:token",
+    "title": "S- Push Tokens Register Token",
+    "description": "<p>Register Token For Current User</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PostRegisterTokenToken"
+  },
+  {
+    "type": "post",
+    "url": "/unblock-user/:id",
+    "title": "I- Block Lis Remove Block From User",
+    "description": "<p>Remove Block From User By User Id</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PostUnblockUserId"
+  },
+  {
+    "type": "post",
+    "url": "/unfollow-user/:id",
+    "title": "J- Follwings Remove Follow",
+    "description": "<p>Remove Follow By User Target Id</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PostUnfollowUserId"
+  },
+  {
+    "type": "put",
+    "url": "/comments/:id",
+    "title": "O- Ad Comments Update Comment",
+    "description": "<p>Update Comment</p>",
+    "group": "Api",
+    "body": [
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "text",
+        "defaultValue": "comment text",
+        "description": ""
+      }
+    ],
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PutCommentsId"
+  },
+  {
+    "type": "put",
+    "url": "/my-ads/:id",
+    "title": "N- My Ads Update Ad",
+    "description": "<p>Update Ad</p>",
+    "group": "Api",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "File[]",
+            "optional": false,
+            "field": "photos",
+            "description": "<p>array of photos.</p>"
+          }
+        ]
+      }
+    },
+    "body": [
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "title",
+        "defaultValue": "ad title (required)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "price",
+        "defaultValue": "ad price (required)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "category",
+        "defaultValue": "categoryId (required)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "subcategory",
+        "defaultValue": "subcategoryId (required)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "type",
+        "defaultValue": "typeId (required)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "region",
+        "defaultValue": "region id (required if properties)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "carMake",
+        "defaultValue": "ad car make id (required if cars)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "carModel",
+        "defaultValue": "ad car model id (required if cars)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "carYear",
+        "defaultValue": "ad car year (required if cars)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "km",
+        "defaultValue": "ad car km (required if cars)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "details",
+        "defaultValue": "ad details (required)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "longitude",
+        "defaultValue": "ad longitude ",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "latitude",
+        "defaultValue": "ad latitude ",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "thumbnailId",
+        "defaultValue": "ad thumbnail id (required if old)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "thumbnailType",
+        "defaultValue": "ad thumbnail type (old(from ad photos), new(from new uploaded images))",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "Number[]",
+        "optional": false,
+        "field": "deletePhotos",
+        "defaultValue": "array of photes indexes need to delete",
+        "description": ""
+      }
+    ],
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PutMyAdsId"
+  },
+  {
+    "type": "put",
+    "url": "/my-ads/:id/activate",
+    "title": "N- My Ads Activate Ad",
+    "description": "<p>Activate Ad</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PutMyAdsIdActivate"
+  },
+  {
+    "type": "put",
+    "url": "/my-ads/:id/deactivate",
+    "title": "N- My Ads Deactivate Ad",
+    "description": "<p>Deactivate Ad</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PutMyAdsIdDeactivate"
+  },
+  {
+    "type": "put",
+    "url": "/my-ads/:id/republish",
+    "title": "N- My Ads Republish Ad",
+    "description": "<p>Republish Ad</p>",
+    "group": "Api",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "Api",
+    "name": "PutMyAdsIdRepublish"
+  },
+  {
     "type": "put",
     "url": "/profile/update/:id/",
     "title": "R- Profile Update",
@@ -3033,6 +3566,19 @@
         "description": "<p>.</p>"
       }
     ],
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
     "version": "0.0.0",
     "filename": "routes/api.js",
     "groupTitle": "Profile",

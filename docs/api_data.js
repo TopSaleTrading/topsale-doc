@@ -11,6 +11,85 @@ define({ "api": [
     "name": "GetCategories"
   },
   {
+    "type": "put",
+    "url": "/profile/update/:id/",
+    "title": "R- Profile Update",
+    "description": "<p>Update Profile</p>",
+    "group": "API",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "File",
+            "optional": false,
+            "field": "image",
+            "description": "<p>Profile Image.</p>"
+          }
+        ]
+      }
+    },
+    "body": [
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "name",
+        "defaultValue": "Profile Name",
+        "description": "<p>.</p>"
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "email",
+        "defaultValue": "Profile Email",
+        "description": "<p>.</p>"
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "bio",
+        "defaultValue": "Profile Bio",
+        "description": "<p>.</p>"
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "websiteUrl",
+        "defaultValue": "Profile Website Url",
+        "description": "<p>.</p>"
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "facebookPageUrl",
+        "defaultValue": "Profile Facebook Page Url",
+        "description": "<p>.</p>"
+      }
+    ],
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "authorization",
+            "description": "<p>Authorization value</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "groupTitle": "API",
+    "name": "PutProfileUpdateId"
+  },
+  {
     "type": "delete",
     "url": "/ads/:id",
     "title": "H- Ad Delete",
@@ -130,7 +209,7 @@ define({ "api": [
   {
     "type": "delete",
     "url": "/types/:id",
-    "title": "3-Types Delete",
+    "title": "C- Types Delete",
     "description": "<p>Delete Type</p>",
     "group": "Admin",
     "version": "0.0.0",
@@ -1029,7 +1108,7 @@ define({ "api": [
   {
     "type": "post",
     "url": "/types/",
-    "title": "3-Types Create",
+    "title": "C- Types Create",
     "description": "<p>Create Type</p>",
     "group": "Admin",
     "body": [
@@ -1809,7 +1888,7 @@ define({ "api": [
   {
     "type": "put",
     "url": "/types/:id",
-    "title": "3-Types Update",
+    "title": "C- Types Update",
     "description": "<p>Update Type</p>",
     "group": "Admin",
     "body": [
@@ -1853,7 +1932,7 @@ define({ "api": [
   {
     "type": "put",
     "url": "/types-sort/",
-    "title": "3-Types Sort",
+    "title": "C- Types Sort",
     "description": "<p>Sort Types</p>",
     "group": "Admin",
     "body": [
@@ -3504,84 +3583,5 @@ define({ "api": [
     "filename": "routes/api.js",
     "groupTitle": "Api",
     "name": "PutMyAdsIdRepublish"
-  },
-  {
-    "type": "put",
-    "url": "/profile/update/:id/",
-    "title": "R- Profile Update",
-    "description": "<p>Update Profile</p>",
-    "group": "Profile",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "File",
-            "optional": false,
-            "field": "image",
-            "description": "<p>Profile Image.</p>"
-          }
-        ]
-      }
-    },
-    "body": [
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "name",
-        "defaultValue": "Profile Name",
-        "description": "<p>.</p>"
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "email",
-        "defaultValue": "Profile Email",
-        "description": "<p>.</p>"
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "bio",
-        "defaultValue": "Profile Bio",
-        "description": "<p>.</p>"
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "websiteUrl",
-        "defaultValue": "Profile Website Url",
-        "description": "<p>.</p>"
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "facebookPageUrl",
-        "defaultValue": "Profile Facebook Page Url",
-        "description": "<p>.</p>"
-      }
-    ],
-    "header": {
-      "fields": {
-        "Header": [
-          {
-            "group": "Header",
-            "type": "String",
-            "optional": false,
-            "field": "authorization",
-            "description": "<p>Authorization value</p>"
-          }
-        ]
-      }
-    },
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Profile",
-    "name": "PutProfileUpdateId"
   }
 ] });

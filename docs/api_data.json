@@ -80,84 +80,84 @@
   },
   {
     "type": "delete",
-    "url": "/admin/ads/:id",
+    "url": "/api/admin/ads/:id",
     "title": "H- Ad Delete",
     "description": "<p>Delete Ad</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "DeleteAdminAdsId"
+    "name": "DeleteApiAdminAdsId"
   },
   {
     "type": "delete",
-    "url": "/admin/banners/:id",
+    "url": "/api/admin/banners/:id",
     "title": "F- Banner Delete",
     "description": "<p>Delete Banner</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "DeleteAdminBannersId"
+    "name": "DeleteApiAdminBannersId"
   },
   {
     "type": "delete",
-    "url": "/admin/car-makes/:id",
+    "url": "/api/admin/car-makes/:id",
     "title": "D- Car Makes Delete",
     "description": "<p>Delete Car Make</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "DeleteAdminCarMakesId"
+    "name": "DeleteApiAdminCarMakesId"
   },
   {
     "type": "delete",
-    "url": "/admin/car-models/:id",
+    "url": "/api/admin/car-models/:id",
     "title": "D- Car Models Delete",
     "description": "<p>Delete Car Model</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "DeleteAdminCarModelsId"
+    "name": "DeleteApiAdminCarModelsId"
   },
   {
     "type": "delete",
-    "url": "/admin/categories/:id",
+    "url": "/api/admin/categories/:id",
     "title": "A- Categories Delete",
     "description": "<p>Delete Category</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "DeleteAdminCategoriesId"
+    "name": "DeleteApiAdminCategoriesId"
   },
   {
     "type": "delete",
-    "url": "/admin/comments/:id",
+    "url": "/api/admin/comments/:id",
     "title": "I- Ad Comments Delete",
     "description": "<p>Delete Ad Comment</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "DeleteAdminCommentsId"
+    "name": "DeleteApiAdminCommentsId"
   },
   {
     "type": "delete",
-    "url": "/admin/regions/:id",
+    "url": "/api/admin/regions/:id",
     "title": "E- Regions Delete",
     "description": "<p>Delete Regions</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "DeleteAdminRegionsId"
+    "name": "DeleteApiAdminRegionsId"
   },
   {
     "type": "delete",
-    "url": "/admin/reject-reasons/:id/",
+    "url": "/api/admin/reject-reasons/:id/",
     "title": "E- Reject Reasons Delete",
     "description": "<p>Delete Reject Reasons</p>",
     "group": "Admin",
@@ -182,44 +182,44 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "DeleteAdminRejectReasonsId"
+    "name": "DeleteApiAdminRejectReasonsId"
   },
   {
     "type": "delete",
-    "url": "/admin/subcategories/:id",
+    "url": "/api/admin/subcategories/:id",
     "title": "B- SubCategories Delete",
     "description": "<p>Delete Sub Category</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "DeleteAdminSubcategoriesId"
+    "name": "DeleteApiAdminSubcategoriesId"
   },
   {
     "type": "delete",
-    "url": "/admin/types/:id",
+    "url": "/api/admin/types/:id",
     "title": "C- Types Delete",
     "description": "<p>Delete Type</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "DeleteAdminTypesId"
+    "name": "DeleteApiAdminTypesId"
   },
   {
     "type": "get",
-    "url": "/admin/ad-logs/:id",
+    "url": "/api/admin/ad-logs/:id",
     "title": "H- Ad Logs Get",
     "description": "<p>Get Ad Logs By Ad Id</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminAdLogsId"
+    "name": "GetApiAdminAdLogsId"
   },
   {
     "type": "get",
-    "url": "/admin/ad-reports",
+    "url": "/api/admin/ad-reports",
     "title": "J- Ad Reports Get",
     "description": "<p>Get Ad Reports</p>",
     "group": "Admin",
@@ -239,11 +239,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminAdReports"
+    "name": "GetApiAdminAdReports"
   },
   {
     "type": "get",
-    "url": "/admin/ads/",
+    "url": "/api/admin/ads/",
     "title": "H- Ads Get",
     "description": "<p>Get Ads</p>",
     "group": "Admin",
@@ -263,11 +263,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminAds"
+    "name": "GetApiAdminAds"
   },
   {
     "type": "get",
-    "url": "/admin/ads/",
+    "url": "/api/admin/ads/",
     "title": "K- Users Get",
     "description": "<p>Get users</p>",
     "group": "Admin",
@@ -287,22 +287,22 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminAds"
+    "name": "GetApiAdminAds"
   },
   {
     "type": "get",
-    "url": "/admin/ads/:id",
+    "url": "/api/admin/ads/:id",
     "title": "H- Ad Get By Id",
     "description": "<p>Get Ad By Id</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminAdsId"
+    "name": "GetApiAdminAdsId"
   },
   {
     "type": "get",
-    "url": "/admin/ads/:id/comments",
+    "url": "/api/admin/ads/:id/comments",
     "title": "I- Ad Comments Get",
     "description": "<p>Get Ad Comments</p>",
     "group": "Admin",
@@ -322,11 +322,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminAdsIdComments"
+    "name": "GetApiAdminAdsIdComments"
   },
   {
     "type": "get",
-    "url": "/admin/ads/:id/recent-comments",
+    "url": "/api/admin/ads/:id/recent-comments",
     "title": "I- Ad Comments Get Recent",
     "description": "<p>Get Ad Recent Comments</p>",
     "group": "Admin",
@@ -346,132 +346,132 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminAdsIdRecentComments"
+    "name": "GetApiAdminAdsIdRecentComments"
   },
   {
     "type": "get",
-    "url": "/admin/ads/:id/related",
+    "url": "/api/admin/ads/:id/related",
     "title": "H- Ad Get Related By Id",
     "description": "<p>Get Related Ads By Ad Id</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminAdsIdRelated"
+    "name": "GetApiAdminAdsIdRelated"
   },
   {
     "type": "get",
-    "url": "/admin/banners/",
+    "url": "/api/admin/banners/",
     "title": "F- Banners Get",
     "description": "<p>Get Banners</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminBanners"
+    "name": "GetApiAdminBanners"
   },
   {
     "type": "get",
-    "url": "/admin/car-makes/",
+    "url": "/api/admin/car-makes/",
     "title": "D- Car Makes Get",
     "description": "<p>Get Car Makes</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminCarMakes"
+    "name": "GetApiAdminCarMakes"
   },
   {
     "type": "get",
-    "url": "/admin/car-makes/:carMakeId/car-models/",
+    "url": "/api/admin/car-makes/:carMakeId/car-models/",
     "title": "D- Car Models Get",
     "description": "<p>Get Car Models By carMakeId</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminCarMakesCarmakeidCarModels"
+    "name": "GetApiAdminCarMakesCarmakeidCarModels"
   },
   {
     "type": "get",
-    "url": "/admin/categories/",
+    "url": "/api/admin/categories/",
     "title": "A- Categories Get",
     "description": "<p>Get Categories</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminCategories"
+    "name": "GetApiAdminCategories"
   },
   {
     "type": "get",
-    "url": "/admin/categories/:categoryId/subcategories/",
+    "url": "/api/admin/categories/:categoryId/subcategories/",
     "title": "B- SubCategories Get",
     "description": "<p>Get SubCategories</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminCategoriesCategoryidSubcategories"
+    "name": "GetApiAdminCategoriesCategoryidSubcategories"
   },
   {
     "type": "get",
-    "url": "/admin/categories/:categoryId/types/",
+    "url": "/api/admin/categories/:categoryId/types/",
     "title": "C- Types Get",
     "description": "<p>Get Types By Category Id</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminCategoriesCategoryidTypes"
+    "name": "GetApiAdminCategoriesCategoryidTypes"
   },
   {
     "type": "get",
-    "url": "/admin/regions/",
+    "url": "/api/admin/regions/",
     "title": "E- Regions Get",
     "description": "<p>Get Regions</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminRegions"
+    "name": "GetApiAdminRegions"
   },
   {
     "type": "get",
-    "url": "/admin/reject-reasons/all/",
+    "url": "/api/admin/reject-reasons/all/",
     "title": "E- Reject Reasons Get All",
     "description": "<p>Get All Reject Reasons</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminRejectReasonsAll"
+    "name": "GetApiAdminRejectReasonsAll"
   },
   {
     "type": "get",
-    "url": "/admin/reject-reasons/available/",
+    "url": "/api/admin/reject-reasons/available/",
     "title": "E- Reject Reasons Get  Available",
     "description": "<p>Get Available Reject Reasons</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminRejectReasonsAvailable"
+    "name": "GetApiAdminRejectReasonsAvailable"
   },
   {
     "type": "get",
-    "url": "/admin/stats",
+    "url": "/api/admin/stats",
     "title": "M- Stats Get",
     "description": "<p>Get Stats</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminStats"
+    "name": "GetApiAdminStats"
   },
   {
     "type": "get",
-    "url": "/admin/top-banners/",
+    "url": "/api/admin/top-banners/",
     "title": "G- Top Banners Get",
     "description": "<p>Get Top Banners</p>",
     "group": "Admin",
@@ -491,33 +491,33 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminTopBanners"
+    "name": "GetApiAdminTopBanners"
   },
   {
     "type": "get",
-    "url": "/admin/user-logs/:id",
+    "url": "/api/admin/user-logs/:id",
     "title": "K- Users Logs Get",
     "description": "<p>Get Users Logs By User Id</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminUserLogsId"
+    "name": "GetApiAdminUserLogsId"
   },
   {
     "type": "get",
-    "url": "/admin/user-managed-categories/:id",
+    "url": "/api/admin/user-managed-categories/:id",
     "title": "L- Managed Categories Get",
     "description": "<p>Get Categories Managed By User Id</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminUserManagedCategoriesId"
+    "name": "GetApiAdminUserManagedCategoriesId"
   },
   {
     "type": "get",
-    "url": "/admin/users/:id/fav-ads",
+    "url": "/api/admin/users/:id/fav-ads",
     "title": "K- Users Get Favourit Ads",
     "description": "<p>Get Favourit Ads By User Id</p>",
     "group": "Admin",
@@ -537,11 +537,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminUsersIdFavAds"
+    "name": "GetApiAdminUsersIdFavAds"
   },
   {
     "type": "get",
-    "url": "/admin/users/:id/followers",
+    "url": "/api/admin/users/:id/followers",
     "title": "K- Users Get Followers",
     "description": "<p>Get User Followers By User Id</p>",
     "group": "Admin",
@@ -561,11 +561,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminUsersIdFollowers"
+    "name": "GetApiAdminUsersIdFollowers"
   },
   {
     "type": "get",
-    "url": "/admin/users/:id/followings",
+    "url": "/api/admin/users/:id/followings",
     "title": "K- Users Get Followings",
     "description": "<p>Get User Followings By User Id</p>",
     "group": "Admin",
@@ -585,11 +585,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "GetAdminUsersIdFollowings"
+    "name": "GetApiAdminUsersIdFollowings"
   },
   {
     "type": "post",
-    "url": "/admin/Banners",
+    "url": "/api/admin/Banners",
     "title": "F- Banner Create",
     "description": "<p>Create Banner</p>",
     "group": "Admin",
@@ -642,11 +642,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PostAdminBanners"
+    "name": "PostApiAdminBanners"
   },
   {
     "type": "post",
-    "url": "/admin/car-makes/",
+    "url": "/api/admin/car-makes/",
     "title": "D- Car Makes Create",
     "description": "<p>Create Car make</p>",
     "group": "Admin",
@@ -663,11 +663,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PostAdminCarMakes"
+    "name": "PostApiAdminCarMakes"
   },
   {
     "type": "post",
-    "url": "/admin/car-models/",
+    "url": "/api/admin/car-models/",
     "title": "D- Car Models Create",
     "description": "<p>Create Car Model</p>",
     "group": "Admin",
@@ -692,11 +692,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PostAdminCarModels"
+    "name": "PostApiAdminCarModels"
   },
   {
     "type": "post",
-    "url": "/admin/categories/",
+    "url": "/api/admin/categories/",
     "title": "A- Categories Create",
     "description": "<p>Create Category</p>",
     "group": "Admin",
@@ -741,11 +741,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PostAdminCategories"
+    "name": "PostApiAdminCategories"
   },
   {
     "type": "post",
-    "url": "/admin/notify-all",
+    "url": "/api/admin/notify-all",
     "title": "n- Push Notification Create",
     "description": "<p>Create Notification</p>",
     "group": "Admin",
@@ -794,11 +794,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PostAdminNotifyAll"
+    "name": "PostApiAdminNotifyAll"
   },
   {
     "type": "post",
-    "url": "/admin/notify-user/:userId",
+    "url": "/api/admin/notify-user/:userId",
     "title": "n- Push Notification Create",
     "description": "<p>Create Notification By User Id</p>",
     "group": "Admin",
@@ -847,11 +847,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PostAdminNotifyUserUserid"
+    "name": "PostApiAdminNotifyUserUserid"
   },
   {
     "type": "post",
-    "url": "/admin/regions/",
+    "url": "/api/admin/regions/",
     "title": "E- Regions Create",
     "description": "<p>Create Regions</p>",
     "group": "Admin",
@@ -876,11 +876,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PostAdminRegions"
+    "name": "PostApiAdminRegions"
   },
   {
     "type": "post",
-    "url": "/admin/reject-reasons/",
+    "url": "/api/admin/reject-reasons/",
     "title": "E- Reject Reasons Create",
     "description": "<p>Create Reject Reasons</p>",
     "group": "Admin",
@@ -905,11 +905,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PostAdminRejectReasons"
+    "name": "PostApiAdminRejectReasons"
   },
   {
     "type": "post",
-    "url": "/admin/subcategories/:id",
+    "url": "/api/admin/subcategories/:id",
     "title": "B- SubCategories Create",
     "description": "<p>Create Sub Categories By Category Id</p>",
     "group": "Admin",
@@ -949,11 +949,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PostAdminSubcategoriesId"
+    "name": "PostApiAdminSubcategoriesId"
   },
   {
     "type": "post",
-    "url": "/admin/top-banners",
+    "url": "/api/admin/top-banners",
     "title": "G- Top Banner Create",
     "description": "<p>Create Top Banner</p>",
     "group": "Admin",
@@ -1015,11 +1015,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PostAdminTopBanners"
+    "name": "PostApiAdminTopBanners"
   },
   {
     "type": "post",
-    "url": "/admin/top-banners/:id",
+    "url": "/api/admin/top-banners/:id",
     "title": "G- Top Banner Update",
     "description": "<p>Update Top Banner</p>",
     "group": "Admin",
@@ -1081,22 +1081,22 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PostAdminTopBannersId"
+    "name": "PostApiAdminTopBannersId"
   },
   {
     "type": "post",
-    "url": "/admin/top-banners/:id",
+    "url": "/api/admin/top-banners/:id",
     "title": "G- Top Banner Delete",
     "description": "<p>Delete Top Banner</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PostAdminTopBannersId"
+    "name": "PostApiAdminTopBannersId"
   },
   {
     "type": "post",
-    "url": "/admin/types/",
+    "url": "/api/admin/types/",
     "title": "C- Types Create",
     "description": "<p>Create Type</p>",
     "group": "Admin",
@@ -1136,11 +1136,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PostAdminTypes"
+    "name": "PostApiAdminTypes"
   },
   {
     "type": "post",
-    "url": "/admin/user-managed-categories/:id/add",
+    "url": "/api/admin/user-managed-categories/:id/add",
     "title": "L- Managed Categories Create",
     "description": "<p>Add Categories To User</p>",
     "group": "Admin",
@@ -1157,11 +1157,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PostAdminUserManagedCategoriesIdAdd"
+    "name": "PostApiAdminUserManagedCategoriesIdAdd"
   },
   {
     "type": "post",
-    "url": "/admin/user-managed-categories/:id/remove",
+    "url": "/api/admin/user-managed-categories/:id/remove",
     "title": "L- Managed Categories Delete",
     "description": "<p>Delete Categories From User</p>",
     "group": "Admin",
@@ -1178,11 +1178,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PostAdminUserManagedCategoriesIdRemove"
+    "name": "PostApiAdminUserManagedCategoriesIdRemove"
   },
   {
     "type": "post",
-    "url": "/admin/users",
+    "url": "/api/admin/users",
     "title": "K- Users Create",
     "description": "<p>Create User</p>",
     "group": "Admin",
@@ -1207,11 +1207,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PostAdminUsers"
+    "name": "PostApiAdminUsers"
   },
   {
     "type": "post",
-    "url": "/admin/users/:id",
+    "url": "/api/admin/users/:id",
     "title": "K- Users Update",
     "description": "<p>Update User</p>",
     "group": "Admin",
@@ -1252,22 +1252,22 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PostAdminUsersId"
+    "name": "PostApiAdminUsersId"
   },
   {
     "type": "put",
-    "url": "/admin/ad-reports/toggle-complete/:id",
+    "url": "/api/admin/ad-reports/toggle-complete/:id",
     "title": "J- Ad Toggle Complete",
     "description": "<p>Toggle Complete Ad Report</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PutAdminAdReportsToggleCompleteId"
+    "name": "PutApiAdminAdReportsToggleCompleteId"
   },
   {
     "type": "put",
-    "url": "/admin/ads/:id",
+    "url": "/api/admin/ads/:id",
     "title": "H- Ads Update (deprecated)",
     "description": "<p>Update Ad (deprecated)</p>",
     "group": "Admin",
@@ -1356,33 +1356,33 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PutAdminAdsId"
+    "name": "PutApiAdminAdsId"
   },
   {
     "type": "put",
-    "url": "/admin/ads/:id/approve",
+    "url": "/api/admin/ads/:id/approve",
     "title": "H- Ad Approve",
     "description": "<p>Approve Ad By Id</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PutAdminAdsIdApprove"
+    "name": "PutApiAdminAdsIdApprove"
   },
   {
     "type": "put",
-    "url": "/admin/ads/:id/fix",
+    "url": "/api/admin/ads/:id/fix",
     "title": "H- Ad Fix",
     "description": "<p>Fix Ad</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PutAdminAdsIdFix"
+    "name": "PutApiAdminAdsIdFix"
   },
   {
     "type": "put",
-    "url": "/admin/ads/:id/move",
+    "url": "/api/admin/ads/:id/move",
     "title": "H- Ad Move",
     "description": "<p>Move Ad</p>",
     "group": "Admin",
@@ -1447,11 +1447,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PutAdminAdsIdMove"
+    "name": "PutApiAdminAdsIdMove"
   },
   {
     "type": "put",
-    "url": "/admin/ads/:id/reject",
+    "url": "/api/admin/ads/:id/reject",
     "title": "H- Ad Reject",
     "description": "<p>Reject Ad By Id</p>",
     "group": "Admin",
@@ -1476,22 +1476,22 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PutAdminAdsIdReject"
+    "name": "PutApiAdminAdsIdReject"
   },
   {
     "type": "put",
-    "url": "/admin/ads/:id/unfix",
+    "url": "/api/admin/ads/:id/unfix",
     "title": "H- Ad Un-Fix",
     "description": "<p>Unfix Ad</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PutAdminAdsIdUnfix"
+    "name": "PutApiAdminAdsIdUnfix"
   },
   {
     "type": "put",
-    "url": "/admin/Banners/:id",
+    "url": "/api/admin/Banners/:id",
     "title": "F- Banner Update",
     "description": "<p>Update Banner</p>",
     "group": "Admin",
@@ -1545,11 +1545,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PutAdminBannersId"
+    "name": "PutApiAdminBannersId"
   },
   {
     "type": "put",
-    "url": "/admin/car-makes/:id",
+    "url": "/api/admin/car-makes/:id",
     "title": "D- Car Makes Update",
     "description": "<p>Update Car Make</p>",
     "group": "Admin",
@@ -1574,11 +1574,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PutAdminCarMakesId"
+    "name": "PutApiAdminCarMakesId"
   },
   {
     "type": "put",
-    "url": "/admin/car-models/:id",
+    "url": "/api/admin/car-models/:id",
     "title": "D- Car Models Update",
     "description": "<p>Update Car Model</p>",
     "group": "Admin",
@@ -1603,11 +1603,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PutAdminCarModelsId"
+    "name": "PutApiAdminCarModelsId"
   },
   {
     "type": "put",
-    "url": "/admin/categories/:id",
+    "url": "/api/admin/categories/:id",
     "title": "A- Categories Update",
     "description": "<p>Update Category</p>",
     "group": "Admin",
@@ -1657,11 +1657,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PutAdminCategoriesId"
+    "name": "PutApiAdminCategoriesId"
   },
   {
     "type": "put",
-    "url": "/admin/categories-sort/",
+    "url": "/api/admin/categories-sort/",
     "title": "A- Categories Sort",
     "description": "<p>Sort Categories</p>",
     "group": "Admin",
@@ -1678,11 +1678,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PutAdminCategoriesSort"
+    "name": "PutApiAdminCategoriesSort"
   },
   {
     "type": "put",
-    "url": "/admin/comments/:id",
+    "url": "/api/admin/comments/:id",
     "title": "I- Ad Comment Update",
     "description": "<p>Update Ad Comment</p>",
     "group": "Admin",
@@ -1699,11 +1699,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PutAdminCommentsId"
+    "name": "PutApiAdminCommentsId"
   },
   {
     "type": "put",
-    "url": "/admin/regions/:id",
+    "url": "/api/admin/regions/:id",
     "title": "E- Regions Update",
     "description": "<p>Update Regions</p>",
     "group": "Admin",
@@ -1728,11 +1728,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PutAdminRegionsId"
+    "name": "PutApiAdminRegionsId"
   },
   {
     "type": "put",
-    "url": "/admin/regions-sort/",
+    "url": "/api/admin/regions-sort/",
     "title": "E- Regions Sort",
     "description": "<p>Sort Regions</p>",
     "group": "Admin",
@@ -1749,11 +1749,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PutAdminRegionsSort"
+    "name": "PutApiAdminRegionsSort"
   },
   {
     "type": "put",
-    "url": "/admin/reject-reasons/sort",
+    "url": "/api/admin/reject-reasons/sort",
     "title": "E- Reject Reasons Sort",
     "description": "<p>Sort Reject Reasons</p>",
     "group": "Admin",
@@ -1770,11 +1770,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PutAdminRejectReasonsSort"
+    "name": "PutApiAdminRejectReasonsSort"
   },
   {
     "type": "put",
-    "url": "/admin/reject-reasons/update/:id/",
+    "url": "/api/admin/reject-reasons/update/:id/",
     "title": "E- Reject Reasons Update",
     "description": "<p>Update Reject Reasons</p>",
     "group": "Admin",
@@ -1799,11 +1799,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PutAdminRejectReasonsUpdateId"
+    "name": "PutApiAdminRejectReasonsUpdateId"
   },
   {
     "type": "put",
-    "url": "/admin/subcategories/:id",
+    "url": "/api/admin/subcategories/:id",
     "title": "B- SubCategories Update",
     "description": "<p>Update Sub Category</p>",
     "group": "Admin",
@@ -1843,11 +1843,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PutAdminSubcategoriesId"
+    "name": "PutApiAdminSubcategoriesId"
   },
   {
     "type": "put",
-    "url": "/admin/subcategories-sort/",
+    "url": "/api/admin/subcategories-sort/",
     "title": "B- SubCategories Sort",
     "description": "<p>Sort Sub Categories</p>",
     "group": "Admin",
@@ -1872,11 +1872,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PutAdminSubcategoriesSort"
+    "name": "PutApiAdminSubcategoriesSort"
   },
   {
     "type": "put",
-    "url": "/admin/types/:id",
+    "url": "/api/admin/types/:id",
     "title": "C- Types Update",
     "description": "<p>Update Type</p>",
     "group": "Admin",
@@ -1916,11 +1916,11 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PutAdminTypesId"
+    "name": "PutApiAdminTypesId"
   },
   {
     "type": "put",
-    "url": "/admin/types-sort/",
+    "url": "/api/admin/types-sort/",
     "title": "C- Types Sort",
     "description": "<p>Sort Types</p>",
     "group": "Admin",
@@ -1945,7 +1945,7 @@
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
-    "name": "PutAdminTypesSort"
+    "name": "PutApiAdminTypesSort"
   },
   {
     "type": "delete",

@@ -832,6 +832,14 @@ define({ "api": [
         "field": "title[en]",
         "defaultValue": "English Title.",
         "description": "<p>&quot;</p>"
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "type",
+        "defaultValue": "general or cars  or properties or lands",
+        "description": ""
       }
     ],
     "version": "0.0.0",
@@ -1793,7 +1801,7 @@ define({ "api": [
         "type": "String",
         "optional": false,
         "field": "type",
-        "defaultValue": "general or cars  or properties",
+        "defaultValue": "general or cars  or properties or lands",
         "description": ""
       },
       {

@@ -1,5 +1,71 @@
 define({ "api": [
   {
+    "type": "get",
+    "url": "/api/users/:id/",
+    "title": "F- Ads Recent Get",
+    "description": "<p>Get Ads Recent</p>",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "page",
+            "description": "<p>Page Number.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "minPrice",
+            "description": "<p>Min Price To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "maxPrice",
+            "description": "<p>Max Price To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "minNumberOfRooms",
+            "description": "<p>Min Number Of Rooms To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "maxNumberOfRooms",
+            "description": "<p>Max Number Of Rooms To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "minNumberOfBathroom",
+            "description": "<p>Min Number Of Bathroom To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "maxNumberOfBathroom",
+            "description": "<p>Max Number Of Bathroom To Filter.</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "routes/api.js",
+    "group": "/home/ahmed/myFiles/topSale/api/routes/api.js",
+    "groupTitle": "/home/ahmed/myFiles/topSale/api/routes/api.js",
+    "name": "GetApiUsersId"
+  },
+  {
     "type": "put",
     "url": "/api/profile/update/:id/",
     "title": "R- Profile Update",
@@ -2718,17 +2784,6 @@ define({ "api": [
     "url": "/api/users/:id/",
     "title": "E- Users Get",
     "description": "<p>Get User By Id</p>",
-    "group": "Api",
-    "version": "0.0.0",
-    "filename": "routes/api.js",
-    "groupTitle": "Api",
-    "name": "GetApiUsersId"
-  },
-  {
-    "type": "get",
-    "url": "/api/users/:id/",
-    "title": "F- Ads Recent Get",
-    "description": "<p>Get Ads Recent</p>",
     "group": "Api",
     "version": "0.0.0",
     "filename": "routes/api.js",

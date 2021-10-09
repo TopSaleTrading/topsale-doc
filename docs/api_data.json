@@ -13,48 +13,6 @@
             "optional": false,
             "field": "page",
             "description": "<p>Page Number.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "Number",
-            "optional": false,
-            "field": "minPrice",
-            "description": "<p>Min Price To Filter.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "Number",
-            "optional": false,
-            "field": "maxPrice",
-            "description": "<p>Max Price To Filter.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "Number",
-            "optional": false,
-            "field": "minNumberOfRooms",
-            "description": "<p>Min Number Of Rooms To Filter.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "Number",
-            "optional": false,
-            "field": "maxNumberOfRooms",
-            "description": "<p>Max Number Of Rooms To Filter.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "Number",
-            "optional": false,
-            "field": "minNumberOfBathroom",
-            "description": "<p>Min Number Of Bathroom To Filter.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "Number",
-            "optional": false,
-            "field": "maxNumberOfBathroom",
-            "description": "<p>Max Number Of Bathroom To Filter.</p>"
           }
         ]
       }
@@ -2804,6 +2762,124 @@
     "title": "F- Ads Get",
     "description": "<p>Get Ads</p>",
     "group": "Api",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "page",
+            "description": "<p>Page Number.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "minPrice",
+            "description": "<p>Min Price To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "maxPrice",
+            "description": "<p>Max Price To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "minNumberOfRooms",
+            "description": "<p>Min Number Of Rooms To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "maxNumberOfRooms",
+            "description": "<p>Max Number Of Rooms To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "minNumberOfBathroom",
+            "description": "<p>Min Number Of Bathroom To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "maxNumberOfBathroom",
+            "description": "<p>Max Number Of Bathroom To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "category",
+            "description": "<p>Category Id To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "user",
+            "description": "<p>User Id To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "subcategory",
+            "description": "<p>Sub-Category Id To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "type",
+            "description": "<p>Type Id To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "region",
+            "description": "<p>Region Id To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "carMake",
+            "description": "<p>Car Make Id To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "carModel",
+            "description": "<p>Car Model Id To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "carYear",
+            "description": "<p>Car Year Id To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "keyword",
+            "description": "<p>Keyword To Filter.</p>"
+          }
+        ]
+      }
+    },
     "version": "0.0.0",
     "filename": "routes/api.js",
     "groupTitle": "Api",
@@ -3403,6 +3479,14 @@
         "field": "latitude",
         "defaultValue": "ad latitude ",
         "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "space",
+        "defaultValue": "add if type of category is lands",
+        "description": ""
       }
     ],
     "header": {
@@ -3749,6 +3833,14 @@
         "optional": false,
         "field": "deletePhotos",
         "defaultValue": "array of photes indexes need to delete",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "space",
+        "defaultValue": "add if type of category is lands",
         "description": ""
       }
     ],

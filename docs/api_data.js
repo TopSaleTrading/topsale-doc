@@ -25,7 +25,7 @@ define({ "api": [
   },
   {
     "type": "put",
-    "url": "/api/profile/update/:id/",
+    "url": "/api/profile/update",
     "title": "R- Profile Update",
     "description": "<p>Update Profile</p>",
     "group": "API",
@@ -100,7 +100,7 @@ define({ "api": [
     "version": "0.0.0",
     "filename": "routes/api.js",
     "groupTitle": "API",
-    "name": "PutApiProfileUpdateId"
+    "name": "PutApiProfileUpdate"
   },
   {
     "type": "delete",
@@ -291,30 +291,132 @@ define({ "api": [
             "optional": false,
             "field": "page",
             "description": "<p>Page Number.</p>"
-          }
-        ]
-      }
-    },
-    "version": "0.0.0",
-    "filename": "routes/admin.js",
-    "groupTitle": "Admin",
-    "name": "GetApiAdminAds"
-  },
-  {
-    "type": "get",
-    "url": "/api/admin/ads/",
-    "title": "K- Users Get",
-    "description": "<p>Get users</p>",
-    "group": "Admin",
-    "parameter": {
-      "fields": {
-        "Parameter": [
+          },
           {
             "group": "Parameter",
             "type": "Number",
             "optional": false,
-            "field": "page",
-            "description": "<p>Page Number.</p>"
+            "field": "minPrice",
+            "description": "<p>Min Price To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "maxPrice",
+            "description": "<p>Max Price To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "minNumberOfRooms",
+            "description": "<p>Min Number Of Rooms To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "maxNumberOfRooms",
+            "description": "<p>Max Number Of Rooms To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "minNumberOfBathroom",
+            "description": "<p>Min Number Of Bathroom To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "maxNumberOfBathroom",
+            "description": "<p>Max Number Of Bathroom To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "category",
+            "description": "<p>Category Id To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "user",
+            "description": "<p>User Id To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "subcategory",
+            "description": "<p>Sub-Category Id To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "type",
+            "description": "<p>Type Id To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "region",
+            "description": "<p>Region Id To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "carMake",
+            "description": "<p>Car Make Id To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "carModel",
+            "description": "<p>Car Model Id To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "carYear",
+            "description": "<p>Car Year Id To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "keyword",
+            "description": "<p>Keyword To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "boolean",
+            "optional": false,
+            "field": "isEnabled",
+            "description": "<p>Is Enabled To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "boolean",
+            "optional": false,
+            "field": "isApproved",
+            "description": "<p>Is Approved To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "boolean",
+            "optional": false,
+            "field": "isFixed",
+            "description": "<p>Is Fixed To Filter.</p>"
           }
         ]
       }
@@ -560,6 +662,74 @@ define({ "api": [
     "filename": "routes/admin.js",
     "groupTitle": "Admin",
     "name": "GetApiAdminUserManagedCategoriesId"
+  },
+  {
+    "type": "get",
+    "url": "/api/admin/users/",
+    "title": "K- Users Get",
+    "description": "<p>Get users</p>",
+    "group": "Admin",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "page",
+            "description": "<p>Page Number</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "perPage",
+            "description": "<p>Number Of User In Every Page</p>"
+          }
+        ]
+      }
+    },
+    "body": [
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "keyword",
+        "description": "<p>To Search In Name Or Mobile</p>"
+      },
+      {
+        "group": "Body",
+        "type": "Boolean",
+        "optional": false,
+        "field": "isEnabled",
+        "description": "<p>To Filter</p>"
+      },
+      {
+        "group": "Body",
+        "type": "Boolean",
+        "optional": false,
+        "field": "isAdmin",
+        "description": "<p>To Filter</p>"
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "sortBy",
+        "description": "<p>To Sort And Default Sort By createdAt</p>"
+      },
+      {
+        "group": "Body",
+        "type": "Boolean",
+        "optional": false,
+        "field": "ascending",
+        "description": "<p>To Sort Type</p>"
+      }
+    ],
+    "version": "0.0.0",
+    "filename": "routes/admin.js",
+    "groupTitle": "Admin",
+    "name": "GetApiAdminUsers"
   },
   {
     "type": "get",

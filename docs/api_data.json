@@ -685,47 +685,45 @@
             "optional": false,
             "field": "perPage",
             "description": "<p>Number Of User In Every Page</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "keyword",
+            "description": "<p>To Search In Name Or Mobile</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Boolean",
+            "optional": false,
+            "field": "isEnabled",
+            "description": "<p>To Filter</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Boolean",
+            "optional": false,
+            "field": "isAdmin",
+            "description": "<p>To Filter</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "sortBy",
+            "description": "<p>To Sort And Default Sort By createdAt</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Boolean",
+            "optional": false,
+            "field": "ascending",
+            "description": "<p>To Sort Type</p>"
           }
         ]
       }
     },
-    "body": [
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "keyword",
-        "description": "<p>To Search In Name Or Mobile</p>"
-      },
-      {
-        "group": "Body",
-        "type": "Boolean",
-        "optional": false,
-        "field": "isEnabled",
-        "description": "<p>To Filter</p>"
-      },
-      {
-        "group": "Body",
-        "type": "Boolean",
-        "optional": false,
-        "field": "isAdmin",
-        "description": "<p>To Filter</p>"
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "sortBy",
-        "description": "<p>To Sort And Default Sort By createdAt</p>"
-      },
-      {
-        "group": "Body",
-        "type": "Boolean",
-        "optional": false,
-        "field": "ascending",
-        "description": "<p>To Sort Type</p>"
-      }
-    ],
     "version": "0.0.0",
     "filename": "routes/admin.js",
     "groupTitle": "Admin",

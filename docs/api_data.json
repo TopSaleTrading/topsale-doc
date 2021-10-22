@@ -1628,7 +1628,7 @@
     "type": "put",
     "url": "/api/admin/ads/:id/approve",
     "title": "H- Ad Approve",
-    "description": "<p>Approve Ad By Id</p>",
+    "description": "<p>Approve And Remove Reject , Reject Reject Reason, Us To Aprrove Ana Un Reject Ad</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
@@ -1639,7 +1639,7 @@
     "type": "put",
     "url": "/api/admin/ads/:id/fix",
     "title": "H- Ad Fix",
-    "description": "<p>Fix Ad</p>",
+    "description": "<p>Make Ad.isFixed Equale True If  Ad Is (Approved And Enabled And Active)</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
@@ -1748,7 +1748,7 @@
     "type": "put",
     "url": "/api/admin/ads/:id/unfix",
     "title": "H- Ad Un-Fix",
-    "description": "<p>Unfix Ad</p>",
+    "description": "<p>Make Ad.isFixed Equale False If  Ad Is (Approved And Enabled And Active)</p>",
     "group": "Admin",
     "version": "0.0.0",
     "filename": "routes/admin.js",
@@ -2764,6 +2764,26 @@
         ]
       }
     },
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "perPage",
+            "description": "<p>Items Size In Every Page Default Is 100.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "getNumberOfAds",
+            "description": "<p>To Get Number Of Ads To Create Pagination.</p>"
+          }
+        ]
+      }
+    },
     "version": "0.0.0",
     "filename": "routes/api.js",
     "groupTitle": "Api",
@@ -3044,6 +3064,20 @@
             "optional": false,
             "field": "keyword",
             "description": "<p>Keyword To Filter.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "perPage",
+            "description": "<p>Items Size In Every Page Default Is 100.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "getNumberOfAds",
+            "description": "<p>To Get Number Of Ads To Create Pagination.</p>"
           }
         ]
       }

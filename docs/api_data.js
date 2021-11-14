@@ -2946,7 +2946,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "/api/users/:id/",
+    "url": "/api/users/:id",
     "title": "F- Ads Get",
     "description": "<p>Get Ads</p>",
     "group": "Api",

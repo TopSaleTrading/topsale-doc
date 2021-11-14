@@ -3078,6 +3078,20 @@ define({ "api": [
             "optional": false,
             "field": "getNumberOfAds",
             "description": "<p>To Get Number Of Ads To Create Pagination.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "sortField",
+            "description": "<p>Enter One Field From ['publishedAt','price','model''location'] and defualt is publishedAt.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "sortType",
+            "description": "<p>Enter false as descending or true as ascending and default is false</p>"
           }
         ]
       }

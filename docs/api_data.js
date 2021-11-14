@@ -1,7 +1,7 @@
 define({ "api": [
   {
     "type": "get",
-    "url": "/api/users/:id/",
+    "url": "/api/users/:id",
     "title": "F- Ads Recent Get",
     "description": "<p>Get Ads Recent</p>",
     "parameter": {
@@ -2509,7 +2509,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "/api/car-makes/",
+    "url": "/api/car-makes",
     "title": "B- Car Makes Get",
     "description": "<p>Get Car Makes</p>",
     "group": "Api",
@@ -2533,7 +2533,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "/api/car-makes/:carMakeId/car-models/",
+    "url": "/api/car-makes/:carMakeId/car-models",
     "title": "B- Car Models Get",
     "description": "<p>Get Car Models By carMakeId</p>",
     "group": "Api",
@@ -2544,7 +2544,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "/api/categories/",
+    "url": "/api/categories",
     "title": "A- Categories Get",
     "description": "<p>Get Categories</p>",
     "group": "Api",
@@ -2555,7 +2555,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "/api/categories/",
+    "url": "/api/categories",
     "title": "A- Categories Get By Id",
     "description": "<p>Get Category By Id</p>",
     "group": "Api",
@@ -2566,7 +2566,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "/api/categories/",
+    "url": "/api/categories",
     "title": "A- Categories Get Groupd By Type",
     "description": "<p>Get Categories Groupd By Type</p>",
     "group": "Api",
@@ -2887,7 +2887,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "/api/regions/",
+    "url": "/api/regions",
     "title": "C- Regions Get",
     "description": "<p>Get Regions</p>",
     "group": "Api",
@@ -2935,7 +2935,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "/api/users/:id/",
+    "url": "/api/users/:id",
     "title": "E- Users Get",
     "description": "<p>Get User By Id</p>",
     "group": "Api",
@@ -3103,7 +3103,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "/api/users/:id/",
+    "url": "/api/users/:id",
     "title": "F- Ads Get  By Id",
     "description": "<p>Get Ad By Id</p>",
     "group": "Api",

@@ -851,6 +851,14 @@
         "field": "url",
         "defaultValue": "ad url",
         "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "boolean",
+        "optional": false,
+        "field": "isEnabled",
+        "defaultValue": "true",
+        "description": ""
       }
     ],
     "version": "0.0.0",
@@ -966,6 +974,14 @@
         "field": "type",
         "defaultValue": "general or cars  or properties or lands",
         "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "boolean",
+        "optional": false,
+        "field": "isEnabled",
+        "defaultValue": "ture",
+        "description": ""
       }
     ],
     "version": "0.0.0",
@@ -1001,6 +1017,14 @@
         "optional": false,
         "field": "title[en]",
         "defaultValue": "English Title",
+        "description": "<p>.</p>"
+      },
+      {
+        "group": "Body",
+        "type": "boolean",
+        "optional": false,
+        "field": "isEnabled",
+        "defaultValue": "true",
         "description": "<p>.</p>"
       }
     ],
@@ -1137,6 +1161,14 @@
         "field": "title[en]",
         "defaultValue": "English Title",
         "description": "<p>.</p>"
+      },
+      {
+        "group": "Body",
+        "type": "boolean",
+        "optional": false,
+        "field": "isEnabled",
+        "defaultValue": "true",
+        "description": "<p>.</p>"
       }
     ],
     "version": "0.0.0",
@@ -1210,6 +1242,14 @@
         "field": "title[en]",
         "defaultValue": "English Title",
         "description": "<p>.</p>"
+      },
+      {
+        "group": "Body",
+        "type": "boolean",
+        "optional": false,
+        "field": "isEnabled",
+        "defaultValue": "true",
+        "description": "<p>.</p>"
       }
     ],
     "version": "0.0.0",
@@ -1276,6 +1316,14 @@
         "field": "type",
         "defaultValue": "type",
         "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "boolean",
+        "optional": false,
+        "field": "isEnabled",
+        "defaultValue": "true",
+        "description": ""
       }
     ],
     "version": "0.0.0",
@@ -1341,6 +1389,14 @@
         "optional": false,
         "field": "type",
         "defaultValue": "type",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "boolean",
+        "optional": false,
+        "field": "isEnabled",
+        "defaultValue": "true",
         "description": ""
       }
     ],
@@ -1534,8 +1590,8 @@
   {
     "type": "put",
     "url": "/api/admin/ads/:id",
-    "title": "H- Ads Update (deprecated)",
-    "description": "<p>Update Ad (deprecated)</p>",
+    "title": "H- Ads Update",
+    "description": "<p>Update Ad</p>",
     "group": "Admin",
     "body": [
       {
@@ -1804,7 +1860,7 @@
         "type": "boolean",
         "optional": false,
         "field": "isEnabled",
-        "defaultValue": "isEnabled boolean",
+        "defaultValue": "ture",
         "description": ""
       }
     ],
@@ -2028,6 +2084,14 @@
         "field": "title[en]",
         "defaultValue": "English Title",
         "description": "<p>.</p>"
+      },
+      {
+        "group": "Body",
+        "type": "boolean",
+        "optional": false,
+        "field": "isEnabled",
+        "defaultValue": "true",
+        "description": "<p>.</p>"
       }
     ],
     "version": "0.0.0",
@@ -2056,6 +2120,14 @@
         "optional": false,
         "field": "title[en]",
         "defaultValue": "English Title",
+        "description": "<p>.</p>"
+      },
+      {
+        "group": "Body",
+        "type": "boolean",
+        "optional": false,
+        "field": "isEnabled",
+        "defaultValue": "true",
         "description": "<p>.</p>"
       }
     ],
@@ -2171,6 +2243,14 @@
         "optional": false,
         "field": "title[en]",
         "defaultValue": "English Title",
+        "description": "<p>.</p>"
+      },
+      {
+        "group": "Body",
+        "type": "boolean",
+        "optional": false,
+        "field": "isEnabled",
+        "defaultValue": "true",
         "description": "<p>.</p>"
       }
     ],

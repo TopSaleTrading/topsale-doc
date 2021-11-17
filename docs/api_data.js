@@ -1596,70 +1596,6 @@ define({ "api": [
     "body": [
       {
         "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "category",
-        "defaultValue": "categoryId",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "subcategory",
-        "defaultValue": "subcategoryId",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "type",
-        "defaultValue": "typeId",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "category",
-        "defaultValue": "ad category id",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "region",
-        "defaultValue": "regionId",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "carMake",
-        "defaultValue": "carMakeId",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "carModel",
-        "defaultValue": "carModelId",
-        "description": ""
-      },
-      {
-        "group": "Body",
-        "type": "String",
-        "optional": false,
-        "field": "carYear",
-        "defaultValue": "carYear",
-        "description": ""
-      },
-      {
-        "group": "Body",
         "type": "Boolean",
         "optional": false,
         "field": "isApproved",
@@ -1672,6 +1608,126 @@ define({ "api": [
         "optional": false,
         "field": "isFixed",
         "defaultValue": "isFixed",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "title",
+        "defaultValue": "ad title (required)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "price",
+        "defaultValue": "ad price (required)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "category",
+        "defaultValue": "categoryId (required)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "subcategory",
+        "defaultValue": "subcategoryId (required)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "type",
+        "defaultValue": "typeId (required)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "region",
+        "defaultValue": "region id (required if properties)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "carMake",
+        "defaultValue": "ad car make id (required if cars)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "carModel",
+        "defaultValue": "ad car model id (required if cars)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "carYear",
+        "defaultValue": "ad car year (required if cars)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "km",
+        "defaultValue": "ad car km (required if cars)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "details",
+        "defaultValue": "ad details (required)",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "longitude",
+        "defaultValue": "ad longitude ",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "latitude",
+        "defaultValue": "ad latitude ",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "address",
+        "defaultValue": "ad address ",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "space",
+        "defaultValue": "add if type of category is lands",
         "description": ""
       }
     ],
@@ -3780,6 +3836,14 @@ define({ "api": [
         "group": "Body",
         "type": "String",
         "optional": false,
+        "field": "address",
+        "defaultValue": "ad address ",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
         "field": "space",
         "defaultValue": "add if type of category is lands",
         "description": ""
@@ -4105,6 +4169,14 @@ define({ "api": [
         "optional": false,
         "field": "latitude",
         "defaultValue": "ad latitude ",
+        "description": ""
+      },
+      {
+        "group": "Body",
+        "type": "String",
+        "optional": false,
+        "field": "address",
+        "defaultValue": "ad address ",
         "description": ""
       },
       {

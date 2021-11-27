@@ -720,6 +720,13 @@ define({ "api": [
             "optional": false,
             "field": "ascending",
             "description": "<p>To Sort Type</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Boolean",
+            "optional": false,
+            "field": "getAll",
+            "description": "<p>To Get All Users Type</p>"
           }
         ]
       }
@@ -3228,6 +3235,20 @@ define({ "api": [
             "optional": false,
             "field": "sortType",
             "description": "<p>Enter false as descending or true as ascending and default is false</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "longitude_sort",
+            "description": "<p>Enter tihs if you need to sort by location</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "string",
+            "optional": false,
+            "field": "latitude_sort",
+            "description": "<p>Enter tihs if you need to sort by location</p>"
           }
         ]
       }
